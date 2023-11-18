@@ -1,0 +1,60 @@
+.padre{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.hijo1{
+    width: 1000px;
+    height: 100px;
+    background-color: blue;
+    border: 5px solid rgb(3, 3, 77) ;
+}
+
+.hijo2{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rojo{
+    width: 300px;
+    height: 600px;
+    background-color: red;
+    border: 5px solid rgba(92, 3, 3, 0.801);
+
+}
+
+.verde{
+    width: 680px;
+    height: 600px;
+    background-color: green;
+    border: 5px solid rgb(9, 70, 4);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    padding: 25px 65px;
+    
+    
+}
+
+.verde div{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 115, 0);
+    border: 5px solid rgb(243, 11, 11);
+
+}
+
+.hijo3{
+    width: 1000px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 5px solid rgb(80, 7, 80);
+}
